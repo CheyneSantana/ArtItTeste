@@ -16,5 +16,6 @@ namespace testeArtItApi.Context
         public virtual DbSet<Aluno> Alunos { get; set; }
         public virtual DbSet<Disciplina> Disciplinas { get; set; }
         public virtual DbSet<AlunoDisciplina> AlunoDisciplinas { get; set; }
+        public virtual DbSet<Usuario> Usuarios { get; set; }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Cheyne\\Documents\\projetos\\testeArtItApi\\testeArtItApi\\testeArtItApi\\testeArtItApi.csproj": {}
+    "D:\\Cheyne\\Documents\\projetos\\testeArtItApi\\testeArtItApi\\testeArtItApi.csproj": {}
   },
   "projects": {
-    "D:\\Cheyne\\Documents\\projetos\\testeArtItApi\\testeArtItApi\\testeArtItApi\\testeArtItApi.csproj": {
+    "D:\\Cheyne\\Documents\\projetos\\testeArtItApi\\testeArtItApi\\testeArtItApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Cheyne\\Documents\\projetos\\testeArtItApi\\testeArtItApi\\testeArtItApi\\testeArtItApi.csproj",
+        "projectUniqueName": "D:\\Cheyne\\Documents\\projetos\\testeArtItApi\\testeArtItApi\\testeArtItApi.csproj",
         "projectName": "testeArtItApi",
-        "projectPath": "D:\\Cheyne\\Documents\\projetos\\testeArtItApi\\testeArtItApi\\testeArtItApi\\testeArtItApi.csproj",
+        "projectPath": "D:\\Cheyne\\Documents\\projetos\\testeArtItApi\\testeArtItApi\\testeArtItApi.csproj",
         "packagesPath": "C:\\Users\\Cheyne\\.nuget\\packages\\",
-        "outputPath": "D:\\Cheyne\\Documents\\projetos\\testeArtItApi\\testeArtItApi\\testeArtItApi\\obj\\",
+        "outputPath": "D:\\Cheyne\\Documents\\projetos\\testeArtItApi\\testeArtItApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -57,6 +57,10 @@
             "ClosedXML": {
               "target": "Package",
               "version": "[0.95.4, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
             },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",

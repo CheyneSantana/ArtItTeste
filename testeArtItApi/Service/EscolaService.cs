@@ -144,5 +144,15 @@ namespace testeArtItApi.Service
             }
             return Path.Combine(Path.GetTempPath(), "listaAlunos.xlsx");
         }
+
+        public async Task<Usuario> autenticar(Usuario usuario)
+        {
+            Usuario user = this._escolaContext.Usuarios.Where(w => w.Login == usuario.Login && w.Senha == usuario.Senha).FirstOrDefault();
+            if (user == null)
+                throw new Exception("Usuario não encontrado");
+
+            return user;
+
+        }
     }
 }
